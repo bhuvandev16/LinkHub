@@ -19,11 +19,11 @@ body {
 
 main {
     width: 350px;
-    height: 600px;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2.5rem;
+    padding-bottom: 20px;
     text-align: center;
     background-color: var(--Dark-Grey);
 }
@@ -43,16 +43,17 @@ main {
 
 .place {
     font-family: "Inter", sans-serif;
-    font-size: .7rem;
+    font-size: .75rem;
     font-weight: 600;
     color: var(--Green);
 }
 
 .about {
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
     color: var(--White);
+    margin-bottom: 20px;
 }
 
 .links a{
@@ -70,4 +71,10 @@ main {
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 15px;
+    transition: ease 0.5s;
+}
+
+.links a:hover {
+    color: var(--Off-Black);
+    background-color: var(--Green);
 }
